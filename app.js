@@ -5,8 +5,11 @@
 
 var express = require('express'),
   routes = require('./routes'),
-  api = require('./routes/api');
+  api = require('./routes/api'),
   list = require('./routes/lists');
+
+var sass = require('node-sass'),
+  sass.render(scss_content, callback [, options]);
 
 var app = module.exports = express();
 
@@ -19,6 +22,11 @@ app.configure(function(){
   app.use(express.methodOverride());
   app.use(express.static(__dirname + '/public'));
   app.use(app.router);
+  app.use(sass.middleware({
+    src: __dirname + '/sass', //where the sass files are 
+    dest: __dirname + '/public', //where css should go
+    debug: true // obvious
+  }));
 });
 
 app.configure('development', function(){
