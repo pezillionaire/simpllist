@@ -6,15 +6,13 @@
 var express = require('express'),
   routes = require('./routes'),
   api = require('./routes/api'),
-  list = require('./routes/lists');
-
-var sass = require('node-sass'),
-  sass.render(scss_content, callback [, options]);
+  list = require('./routes/lists'),
+  sass = require('node-sass');
 
 var app = module.exports = express();
 
-// Configuration
 
+// Configuration
 app.configure(function(){
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');

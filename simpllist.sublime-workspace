@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"co",
+				"console"
+			],
+			[
 				"bo",
 				"border"
 			],
@@ -236,10 +240,6 @@
 				"avatar-border"
 			],
 			[
-				"co",
-				"color"
-			],
-			[
 				"re",
 				"relative"
 			],
@@ -295,7 +295,7 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 1494,
+				"buffer_size": 1440,
 				"line_ending": "Unix"
 			}
 		},
@@ -308,28 +308,19 @@
 			}
 		},
 		{
-			"file": "routes/lists.js",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 3310,
+				"buffer_size": 254,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "views/index.jade",
+			"file": "views/layout.jade",
 			"settings":
 			{
-				"buffer_size": 446,
+				"buffer_size": 160,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/app.scss",
-			"settings":
-			{
-				"buffer_size": 49,
-				"line_ending": "Unix",
-				"name": "h2 {"
 			}
 		}
 	],
@@ -373,6 +364,9 @@
 	},
 	"file_history":
 	[
+		"/Users/pezillionaire/GitHub/simpllist/routes/lists.js",
+		"/Users/pezillionaire/GitHub/simpllist/views/index.jade",
+		"/Users/pezillionaire/GitHub/simpllist/sass/app.scss",
 		"/Users/pezillionaire/GitHub/simpllist/routes/index.js",
 		"/Users/pezillionaire/GitHub/simpllist/views/layout.jade",
 		"/Users/pezillionaire/GitHub/simpllist/routes/api.js",
@@ -497,10 +491,7 @@
 		"/Users/pezillionaire/GitHub/tictalking/app/views/devise/sessions/_form.html.haml",
 		"/Users/pezillionaire/GitHub/tictalking/app/models/feedback.rb",
 		"/Users/pezillionaire/GitHub/tictalking/app/assets/stylesheets/modules/_tooltip.scss",
-		"/Users/pezillionaire/GitHub/tictalking/app/assets/javascripts/components/truncate.js",
-		"/Users/pezillionaire/GitHub/tictalking/app/views/searches/_search_form.html.haml",
-		"/Users/pezillionaire/GitHub/tictalking/app/assets/javascripts/components/comments.js.coffee",
-		"/Users/pezillionaire/GitHub/tictalking/app/assets/javascripts/components/flag_conversation.js.coffee"
+		"/Users/pezillionaire/GitHub/tictalking/app/assets/javascripts/components/truncate.js"
 	],
 	"find":
 	{
@@ -679,15 +670,15 @@
 					"file": "app.js",
 					"settings":
 					{
-						"buffer_size": 1494,
+						"buffer_size": 1440,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								205,
-								205
+								239,
+								239
 							]
 						],
 						"settings":
@@ -697,7 +688,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -732,25 +723,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "routes/lists.js",
+					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 3310,
+						"buffer_size": 254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2732,
-								2732
+								221,
+								198
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -760,52 +749,23 @@
 				},
 				{
 					"buffer": 3,
-					"file": "views/index.jade",
+					"file": "views/layout.jade",
 					"settings":
 					{
-						"buffer_size": 446,
+						"buffer_size": 160,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								79,
-								79
+								138,
+								138
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sass/app.scss",
-					"settings":
-					{
-						"buffer_size": 49,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								46,
-								46
-							]
-						],
-						"settings":
-						{
-							"auto_name": "h2 {",
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
